@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:alumno": "vitest run tests/Alumno.test.ts",
+    "test:profesor": "vitest run tests/Profesor.test.ts",
+    "test:materia": "vitest run tests/Materia.test.ts"
   },
   "keywords": [],
   "author": "",

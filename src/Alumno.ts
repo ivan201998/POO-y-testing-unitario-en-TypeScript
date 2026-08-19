@@ -1,6 +1,6 @@
 import { Persona } from "./Persona";
 
-export class Alumno extends Persona {
+export class Alumno extends Persona {//extend heredamos de la clase persona
   constructor(
     nombre: string,
     public edad: number,
